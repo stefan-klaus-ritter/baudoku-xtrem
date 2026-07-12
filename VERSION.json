@@ -1,0 +1,8 @@
+{
+ "version": "1.7.9",
+ "datum": "2026-07-12",
+ "hinweis": "Integritaets-Manifest BaudokuXtrem (Einzel-App, verschluesselt). index.html ist ein Loader ohne App-Inhalt.",
+ "dateien": {
+  "baudokuxtrem.enc": "03be8561a02a3081c9df809f01af822a04dbbf64e5305195771b7d5cdc99b7cd"
+ }
+}

@@ -1,0 +1,28 @@
+# ═══ DATENSCHUTZ / IP-SCHUTZ — 12.07.2026 ══════════════════════════════
+# BEFUND (Live-Pruefung 12.07.2026): Die App lag als index.html im KLARTEXT
+# im oeffentlichen Repo — 1,77 MB, 471 Funktionen. Die verschluesselte
+# baudokuxtrem.enc lag daneben und wurde von NIEMANDEM geladen; es gab
+# keinen Loader. Das Login-Gate war damit wertlos.
+#
+# Die fruehere .gitignore sperrte "baudokuxtrem.html" — eine Datei, die
+# gar nicht mehr da war. Die App lag unter dem Namen index.html.
+#
+# REGEL: In dieses Repo gehoert NUR die verschluesselte Fassung (.enc)
+# plus der Loader (index.html, wenige KB, ohne App-Inhalt).
+# Jede Klartext-App bleibt lokal.
+baudokuxtrem.html
+BaudokuXtrem*.html
+GOLDSTANDARD_*.html
+App[123]_*.html
+*_OFFLINE.html
+*.local.html
+*.backup*.html
+*.vor-*.html
+
+# Nie ins Repo: Schluessel, Zugangsdaten, Akten, Klartext-Lizenzdaten
+*.key
+*.pem
+.env
+secrets.json
+zuordnungstabelle*.json
+*.bak_KLARTEXT*
